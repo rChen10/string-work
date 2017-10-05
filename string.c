@@ -114,23 +114,23 @@ int main(){
   printf("[mine]: %s\n", strncpy$(s3, s2, 2));
 
   
-  printf("Testing strcat(s4, s5):\n");
+  printf("Testing strcat(s1, s2):\n");
   printf("[standard]: %s\n", strcat(s4, s5));
   printf("[mine]: %s\n", strcat$(s6, s7));
 
-  printf("Testing strcmp$ (s8, s9):\n");
+  printf("Testing strcmp$ (s1, s2):\n");
   printf("[standard]: %d\n", strcmp(s8, s9));
   printf("[mine]: %d\n", strcmp$(s8, s9));
 
-  printf("Testing strcmp$ (s8, s8):\n");
+  printf("Testing strcmp$ (s1, s1):\n");
   printf("[standard]: %d\n", strcmp(s8, s8));
   printf("[mine]: %d\n", strcmp$(s8, s8));
 
-  printf("Testing strchr$ (s8, t):\n");
+  printf("Testing strchr$ (s1, t):\n");
   printf("[standard]: %s\n", strchr(s8,'g'));
   printf("[mine]: %s\n", strchr$(s8,'g'));
 
-  printf("Testing strstr$ (s10, s9):\n");
+  printf("Testing strstr$ (\"kittycat\", s2):\n");
   printf("[standard]: %s\n", strstr(s10,s9));
   printf("[mine]: %s\n", strstr$(s10,s9));
   
